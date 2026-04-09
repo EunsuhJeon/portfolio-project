@@ -26,7 +26,7 @@ function Hero() {
     ) }),
     /* @__PURE__ */ jsx("h1", { className: "text-5xl md:text-7xl font-bold text-gray-900 mb-4", children: "Eunsuh Jeon" }),
     /* @__PURE__ */ jsx("p", { className: "text-2xl md:text-3xl text-gray-600 mb-6", children: "Web Developer" }),
-    /* @__PURE__ */ jsx("p", { className: "text-lg md:text-xl text-gray-500 mb-12 max-w-2xl mx-auto", children: "Building modern, scalable web applications with a focus on clean code, user experience, and performance optimization" }),
+    /* @__PURE__ */ jsx("p", { className: "text-lg md:text-xl text-gray-500 mb-12 max-w-2xl mx-auto", children: "Curious and self-driven developer who thrives on solving complex problems, learning new technologies, and delivering end-to-end web solutions." }),
     /* @__PURE__ */ jsxs("div", { className: "flex flex-col sm:flex-row items-center justify-center gap-4 mb-12", children: [
       /* @__PURE__ */ jsxs(
         Button,

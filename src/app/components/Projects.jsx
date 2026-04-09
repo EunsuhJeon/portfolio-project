@@ -7,7 +7,7 @@ function Projects() {
     {
       title: "Retail Dashboard App",
       description: "Developed a full-stack retail dashboard application using Vanilla JavaScript, Node.js, and Express.js, implementing product browsing, shopping cart, checkout, and analytics features across integrated frontend and backend systems.",
-      image: "https://images.unsplash.com/photo-1661246627162-feb0269e0c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzc1NTExNTAwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/projects/retailhub.png",
       tags: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "REST API", "Chart.js"],
       github: "https://github.com/EunsuhJeon/retail-dashboard-app-server",
       // demo: "https://example.com"
@@ -15,17 +15,17 @@ function Projects() {
     {
       title: "Learnify CourseHub",
       description: "Designed and developed a RESTful backend API for an online course platform using PHP, MySQL, and PDO, supporting user registration, authentication, course enrollment, shopping cart management, and paginated course search with optimized queries.",
-      image: "https://images.unsplash.com/photo-1763718528755-4bca23f82ac3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBhcHBsaWNhdGlvbiUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NzU1MzA3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/projects/learnify.png",
       tags: ["PHP", "MySQL", "PDO", "REST API", "MVC Architecture", "Session Authentication"],
       github: "https://github.com/EunsuhJeon/learnify-coursehub-server",
       // demo: "https://example.com"
     },
     {
-      title: "Inventory Management System",
-      description: "Developed a command-line inventory management system in Python demonstrating CRUD operations, OOP (Product and PerishableProduct classes), and basic input validation, with persistent storage using file I/O.",
-      image: "https://images.unsplash.com/photo-1577333715735-8fcb0359d906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwbW9ja3VwfGVufDF8fHx8MTc3NTU1MjQ3NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Python", "CRUD", "OOP", "File I/O"],
-      github: "https://github.com/EunsuhJeon/python-inventory-Eunsuh-Jeon.git",
+      title: "Angler’s Trial",
+      description: "Retro-style fishing mini-game with timing-based mechanics, round progression, and interactive pixel-art gameplay, showcasing creative front-end development skills.",
+      image: "/projects/angler.png",
+      tags: ["HTML5", "CSS3", "JavaScript", "jQuery"],
+      github: "https://github.com/EunsuhJeon/js-mini-app-2.git"
       // demo: "https://example.com"
     }
   ];
