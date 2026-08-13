@@ -6,6 +6,28 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 function Projects() {
   const projects = [
     {
+      title: "Team Task Management (Taskflow)",
+      description:
+        "Problem: I needed a portfolio-ready collaboration app that shows real SaaS patterns—auth, teams, roles, and task workflows—without the complexity of a full Jira clone. Approach: I designed PostgreSQL relationships for users, teams, memberships, tasks, invites, and comments, then built a Spring Boot REST API with JWT auth and Admin/Member RBAC. The React client uses protected routes, Axios, and a drag-and-drop kanban board, and the stack is deployed with Docker on Render plus Vercel. Result: The app supports signup/login, team invites, task CRUD with assignees and due-date alerts, comments, admin-only deletes, and a maintainable full-stack architecture that’s easy to demo and explain in interviews.",
+      image: "/projects/taskflow.png",
+      tags: [
+        "React",
+        "React Router",
+        "Axios",
+        "@dnd-kit",
+        "Java 17",
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "PostgreSQL",
+        "Docker",
+        "Render",
+        "Vercel"
+      ],
+      github: "https://github.com/EunsuhJeon/task-management-backend",
+      demo: "https://task-management-frontend-rho-umber.vercel.app"
+    },
+    {
       title: "Retail Dashboard App",
       description:
         "Problem: I needed a single dashboard where users could browse products, manage a cart, and review sales metrics without juggling separate tools. Approach: I built a vanilla JavaScript frontend with a Node.js and Express REST API, Chart.js analytics, and clear separation between UI and API layers. Result: The app supports product browsing, cart and checkout flows, and dashboard views that demonstrate full-stack integration and maintainable structure.",
