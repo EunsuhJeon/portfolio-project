@@ -8,7 +8,7 @@ function Projects() {
     {
       title: "Team Task Management (Taskflow)",
       description:
-        "Problem: I wanted a portfolio-ready collaboration app that demonstrates real SaaS patterns such as authentication, teams, roles, and task workflows without the complexity of a full Jira clone. Approach: I designed PostgreSQL relationships for users, teams, memberships, tasks, invites, and comments, then built a Spring Boot REST API with JWT authentication and Admin/Member RBAC. The React client uses protected routes, Axios, and a drag-and-drop Kanban board. Result: The app supports team invitations, task CRUD, assignees, due dates, comments, and role-based permissions, demonstrating a practical full-stack SaaS architecture.",
+        "Problem: I needed a collaboration platform that supports team-based task management with authentication, roles, and task workflows. Approach: I designed PostgreSQL relationships for users, teams, memberships, tasks, invites, and comments, then built a Spring Boot REST API with JWT authentication and Admin/Member RBAC. The React client uses protected routes, Axios, and a drag-and-drop Kanban board. Result: The app supports team invitations, task CRUD, assignees, due dates, comments, and role-based permissions, demonstrating a scalable full-stack SaaS architecture.",
       image: "/projects/taskflow.png",
       tags: [
         "React",
