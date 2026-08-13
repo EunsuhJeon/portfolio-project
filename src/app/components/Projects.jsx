@@ -8,7 +8,7 @@ function Projects() {
     {
       title: "Team Task Management (Taskflow)",
       description:
-        "Problem: I needed a portfolio-ready collaboration app that shows real SaaS patterns—auth, teams, roles, and task workflows—without the complexity of a full Jira clone. Approach: I designed PostgreSQL relationships for users, teams, memberships, tasks, invites, and comments, then built a Spring Boot REST API with JWT auth and Admin/Member RBAC. The React client uses protected routes, Axios, and a drag-and-drop kanban board, and the stack is deployed with Docker on Render plus Vercel. Result: The app supports signup/login, team invites, task CRUD with assignees and due-date alerts, comments, admin-only deletes, and a maintainable full-stack architecture that’s easy to demo and explain in interviews.",
+        "Problem: I wanted a portfolio-ready collaboration app that demonstrates real SaaS patterns such as authentication, teams, roles, and task workflows without the complexity of a full Jira clone. Approach: I designed PostgreSQL relationships for users, teams, memberships, tasks, invites, and comments, then built a Spring Boot REST API with JWT authentication and Admin/Member RBAC. The React client uses protected routes, Axios, and a drag-and-drop Kanban board. Result: The app supports team invitations, task CRUD, assignees, due dates, comments, and role-based permissions, demonstrating a practical full-stack SaaS architecture.",
       image: "/projects/taskflow.png",
       tags: [
         "React",
@@ -59,10 +59,10 @@ function Projects() {
   return /* @__PURE__ */ jsx("section", { id: "projects", className: "py-24 bg-gray-50", children: /* @__PURE__ */ jsxs("div", { className: "max-w-7xl mx-auto px-6 lg:px-8", children: [
     /* @__PURE__ */ jsx("h2", { className: "text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-center", children: "Featured Projects" }),
     /* @__PURE__ */ jsx("p", { className: "text-lg text-gray-600 mb-16 text-center max-w-2xl mx-auto", children: "A selection of recent projects that showcase my skills and experience" }),
-    /* @__PURE__ */ jsx("div", { className: "grid md:grid-cols-2 lg:grid-cols-3 gap-8", children: projects.map((project, index) => /* @__PURE__ */ jsxs(
+    /* @__PURE__ */ jsx("div", { className: "flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth -mx-6 px-6 lg:-mx-8 lg:px-8", children: projects.map((project, index) => /* @__PURE__ */ jsxs(
       "div",
       {
-        className: "bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col",
+        className: "bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col flex-shrink-0 w-[85%] sm:w-[70%] md:w-[48%] lg:w-[32%] snap-start",
         children: [
           /* @__PURE__ */ jsx("div", { className: "relative h-48 bg-gray-200 overflow-hidden", children: /* @__PURE__ */ jsx(
             ImageWithFallback,
